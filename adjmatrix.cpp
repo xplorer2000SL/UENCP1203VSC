@@ -19,11 +19,11 @@ int main (){
             {'c','a', 3},
             {'c','d', 5},
             {'d','a', 5},
-            {'d','b', -4},
+            {'d','b',-4},
             {'d','c', 9},
     };
 
-    map<char, int> vertexIndex;
+    map <char, int> vertexIndex;
     int index = 0;
     for (const auto& edge : edgeList) {
         if (vertexIndex.find(edge.src) == vertexIndex.end()){
